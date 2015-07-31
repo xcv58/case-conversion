@@ -1,0 +1,20 @@
+{
+  "name": "case-conversion",
+  "main": "./lib/case-conversion",
+  "version": "0.0.1",
+  "description": "case conversion",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "case-conversion:capitalize",
+      "case-conversion:upper",
+      "case-conversion:lower"
+    ]
+  },
+  "repository": "https://github.com/xcv58/case-conversion",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
