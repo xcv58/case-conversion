@@ -1,4 +1,4 @@
-{CompositeDisposable} = require 'atom'
+Capitalize = require 'capitalize'
 
 module.exports = Capitalized =
   activate: (state) ->
@@ -13,7 +13,7 @@ module.exports = Capitalized =
     @replaceSelectedText (text) -> text.toLowerCase()
 
   capitalize: ->
-    @replaceSelectedText (text) -> text.charAt(0).toUpperCase() + text.slice(1).toLowerCase()
+    @replaceSelectedText (text) -> Capitalize.words(text)
 
   replaceSelectedText: (fn) ->
     for selection in atom.workspace.getActivePaneItem().getSelections()
