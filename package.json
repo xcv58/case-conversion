@@ -1,7 +1,7 @@
 {
   "name": "case-conversion",
   "main": "./lib/case-conversion",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "case conversion",
   "keywords": [],
   "activationCommands": {
