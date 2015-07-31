@@ -21,5 +21,4 @@ module.exports = Capitalized =
         selection.selectRight()
         selection.selectWord()
       text = selection.getText()
-      console.log text
       selection.insertText fn text
