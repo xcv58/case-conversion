@@ -1,7 +1,7 @@
 {
   "name": "case-conversion",
   "main": "./lib/case-conversion",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "case conversion",
   "keywords": [],
   "activationCommands": {
@@ -17,6 +17,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-     "capitalize": "~1.0.0"
+    "capitalize": "~1.0.0"
   }
 }
